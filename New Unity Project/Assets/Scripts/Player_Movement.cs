@@ -8,12 +8,25 @@ public class Player_Movement : MonoBehaviour
     public float forwardForce = 2000f;
     public float sideForce = 500f;
     public float upForce = 200f;
+
+    public KeyCode myKey;
+    public string myTrigger;
+
     // Can import other components from unity to play with them here
     // Start is called before the first frame update
     void Start()
     {
         // code here will run when game starts
         //rb.AddForce(0, 100, 500);
+    }
+
+    //rotation on keypress 'R'
+    void Update()
+    {
+        if (Input.GetKey(myKey))
+        {
+            GetComponent<Animator>().SetTrigger(myTrigger);
+        } 
     }
 
     // Update is called once per frame
