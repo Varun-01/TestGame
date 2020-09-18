@@ -4,6 +4,7 @@ Homework 2 for the team members:
 1. Branden Nguyen
 2. Varun Sura
 3. Jesse Hurtado
+
 In this project we have developed a simple running game by applying basic concepts for unity and implemented following tasks:
 -- Make camera move (i) behind of object as the object moves (like the cube) and (ii) a top
 down view that looks down the whole scene and switch between (i) and (ii) should be
